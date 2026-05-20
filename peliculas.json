@@ -1,28 +1,50 @@
 {
-  "peliculas": [
-    {
-      "id": "p1",
-      "titulo": "Mi Primer Video de Prueba",
-      "categoria": "Acción",
-      "duracion": "0h 05m",
-      "portada": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=500",
-      "video_url": "https://docs.google.com/uc?export=download&id=1FE1fCaZO9MqhzjpCazTtlArUeECj5UQm"
-    }
+  "usuarios": [
+    {"id": "u1", "nombre": "Usuario 1", "pin": "1234"},
+    {"id": "u2", "nombre": "Usuario 2", "pin": "5678"},
+    {"id": "u3", "nombre": "Usuario 3", "pin": "1111"},
+    {"id": "u4", "nombre": "Usuario 4", "pin": "2222"},
+    {"id": "u5", "nombre": "Usuario 5", "pin": "3333"}
   ],
-  "series": [
+  "destacada": {
+    "id": "p1",
+    "titulo": "Mi Primer Video de Prueba",
+    "sinopsis": "Esta es la película destacada del mes. Disfruta de la máxima velocidad de streaming directo desde nuestra infraestructura optimizada en la nube.",
+    "background": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1200",
+    "video_url": "https://docs.google.com/uc?export=download&id=1FE1fCaZO9MqhzjpCazTtlArUeECj5UQm"
+  },
+  "categorias": [
     {
-      "id": "s1",
-      "titulo": "Serie de Prueba 1",
-      "categoria": "Ciencia Ficción",
-      "portada": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=500",
-      "temporadas": [
+      "id": "cat1",
+      "titulo": "Películas de Acción",
+      "items": [
         {
-          "numero_temporada": 1,
-          "episodios": [
+          "id": "p1",
+          "titulo": "Mi Primer Video de Prueba",
+          "portada": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=500",
+          "video_url": "https://docs.google.com/uc?export=download&id=1FE1fCaZO9MqhzjpCazTtlArUeECj5UQm"
+        }
+      ]
+    },
+    {
+      "id": "cat2",
+      "titulo": "Series Exclusivas",
+      "items": [
+        {
+          "id": "s1",
+          "titulo": "Serie de Prueba 1",
+          "portada": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=500",
+          "es_serie": true,
+          "temporadas": [
             {
-              "capitulo": 1,
-              "nombre": "Capítulo Piloto de Prueba",
-              "video_url": "https://docs.google.com/uc?export=download&id=AQUI_IRA_OTRO_ID_DESPUES"
+              "numero": 1,
+              "episodios": [
+                {
+                  "capitulo": 1,
+                  "nombre": "Capítulo Piloto",
+                  "video_url": "https://docs.google.com/uc?export=download&id=1FE1fCaZO9MqhzjpCazTtlArUeECj5UQm"
+                }
+              ]
             }
           ]
         }
