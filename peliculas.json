@@ -1,0 +1,32 @@
+{
+  "peliculas": [
+    {
+      "id": "p1",
+      "titulo": "Película de Prueba 1",
+      "categoria": "Acción",
+      "duracion": "2h 00m",
+      "portada": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=500",
+      "video_url": "https://docs.google.com/uc?export=download&id=AQUI_IRA_EL_ID_DE_DRIVE_DESPUES"
+    }
+  ],
+  "series": [
+    {
+      "id": "s1",
+      "titulo": "Serie de Prueba 1",
+      "categoria": "Ciencia Ficción",
+      "portada": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=500",
+      "temporadas": [
+        {
+          "numero_temporada": 1,
+          "episodios": [
+            {
+              "capitulo": 1,
+              "nombre": "Capítulo Piloto de Prueba",
+              "video_url": "https://docs.google.com/uc?export=download&id=AQUI_IRA_EL_ID_DE_DRIVE_DESPUES"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
