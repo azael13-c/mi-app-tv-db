@@ -2,11 +2,11 @@
   "peliculas": [
     {
       "id": "p1",
-      "titulo": "Película de Prueba 1",
+      "titulo": "Mi Primer Video de Prueba",
       "categoria": "Acción",
-      "duracion": "2h 00m",
+      "duracion": "0h 05m",
       "portada": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=500",
-      "video_url": "https://docs.google.com/uc?export=download&id=AQUI_IRA_EL_ID_DE_DRIVE_DESPUES"
+      "video_url": "https://docs.google.com/uc?export=download&id=1FE1fCaZO9MqhzjpCazTtlArUeECj5UQm"
     }
   ],
   "series": [
@@ -22,7 +22,7 @@
             {
               "capitulo": 1,
               "nombre": "Capítulo Piloto de Prueba",
-              "video_url": "https://docs.google.com/uc?export=download&id=AQUI_IRA_EL_ID_DE_DRIVE_DESPUES"
+              "video_url": "https://docs.google.com/uc?export=download&id=AQUI_IRA_OTRO_ID_DESPUES"
             }
           ]
         }
